@@ -43,9 +43,7 @@ header .nav{
     
     
 }
-.nav{
 
-}
 .logo {
     text-decoration: none;
     color: var(--textColor);
@@ -342,10 +340,7 @@ footer{
         flex-direction: column;
     }
     
-    header .nav {
-    
-       
-    }
+  
     .logo{
         display: none;
     }
