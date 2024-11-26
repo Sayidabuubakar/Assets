@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photogallery</title>
+    <link rel="shortcut icon" href="picture6.ico" type="image/x-icon" />
+    <style>
+      body {
+        transition: background-color 0.8s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Photogallery</h1>
+
+    <div align="center">
+      <label for="colorPicker">Choose background color:</label>
+      <input type="color" id="colorPicker" value="#ffffff" />
+    </div>
+
+    <table border="0" width="1500px">
+      <tr>
+        <td align="center">
+          <a href="gallery1.html?image=picture1.jpg">
+            <img src="picture1.jpg" alt="" width="466px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery2.html">
+            <img src="picture2.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery3.html">
+            <img src="picture3.jpg" alt="" width="466px" />
+          </a>
+        </td>
+
+        <hr />
+      </tr>
+      <tr>
+        <td align="center">
+          <a href="gallery4.html">
+            <img src="picture4.jpg" alt="" width="466px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery5.html">
+            <img src="picture5.jpg" alt="" width="466px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery6.html">
+            <img src="picture6.jpg" alt="" width="466px" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <a href="gallery7.html">
+            <img src="picture7.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery8.html">
+            <img src="picture8.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery9.html">
+            <img src="picture9.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <a href="gallery10.html">
+            <img src="picture10.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+        <td align="center">
+          <a href="gallery11.html">
+            <img src="picture11.jpg" alt="" width="466px" height="310px" />
+          </a>
+        </td>
+
+        <td align="center">
+          <a href="gallery12.html">
+            <img
+              draggable="false"
+              src="picture12.jpg"
+              alt=""
+              width="466px"
+              height="310px"
+            />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <script>
+      const colorPicker = document.getElementById("colorPicker");
+      colorPicker.addEventListener("input", function () {
+        document.body.style.backgroundColor = this.value;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+
+
+
+
+@keyframes blinkingText
+ {
+    0%{
+        color: black;
+    }
+    25%{
+        color: rebeccapurple;
+    }
+    50%{
+        color: green;
+    }
+
+     75% {
+             color: red;
+     }
+    
+     100% {
+             color: blue;
+     }
+}
+
+p {
+    font-size: 24px;
+    animation: blinkingText 1s linear infinite;
+}
+
+
+@keyframes tableMove{
+
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(0)
+    }
+    
+}
+
+
+
+.table-width{
+    animation: tableMove 2s linear infinite;
+    background-color: rebeccapurple;
+    width: 650px;
+    height: 200px;
+}
+
+
