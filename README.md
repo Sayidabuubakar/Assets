@@ -1,2 +1,2 @@
 # Personal-Blog
- This is personal blog website, this project built only html and css 
+ This is personal blog website, this project built html and css only
