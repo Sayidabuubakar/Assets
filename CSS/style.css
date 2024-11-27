@@ -201,7 +201,7 @@ header .nav ul li a:hover{
     width: 100%;
     background: #f8f8f8;
     border-radius: 0 0 12px 12px;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: 0.3s ease, color 0.3s ease;
 }
 
 
